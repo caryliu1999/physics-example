@@ -15,8 +15,8 @@ cc.Class({
         this.ctx = this.getComponent(cc.Graphics);
 
         this.ctx.lineWidth = 6;
-        this.ctx.strokeColor = cc.hexToColor('#495069');
-        this.ctx.fillColor = cc.hexToColor('#ffde59');
+        this.ctx.strokeColor = cc.color(255, 255, 255, 255).fromHEX('#495069');
+        this.ctx.fillColor = cc.color(255, 255, 255, 255).fromHEX('#ffde59');
 
         let x = this.node.x;
         let y = this.node.y;
